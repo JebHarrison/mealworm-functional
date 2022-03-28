@@ -1,10 +1,11 @@
 
-import React from 'react'
+import React from 'react';
+import CardFront from './components/CardFront/CardFront';
 
 const App = () => {
     return (
         <div>
-            Hi my name is james
+            <CardFront />
         </div>
     )
 }
